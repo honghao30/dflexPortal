@@ -3,7 +3,7 @@
     <header>
       <h1>사이트제목</h1>
     </header>
-    <v-sheet width="300" class="mx-auto">
+    <v-sheet class="mx-auto">
       <v-form @submit.prevent>
         <v-text-field
           v-model="searchName"
