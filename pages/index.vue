@@ -1,38 +1,18 @@
 <template>
-  <swiper
-    :slides-per-view="1"
-    :space-between="50"
-    @swiper="onSwiper"
-    @slideChange="onSlideChange"
-  >
-    <swiper-slide>Slide 1</swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide>
-    <swiper-slide>Slide 3</swiper-slide>
-  </swiper>
+  <div>
+    <header>
+      <h1>사이트제목</h1>
+    </header>
+    <v-sheet width="300" class="mx-auto">
+      <v-form @submit.prevent>
+        <v-text-field
+          v-model="searchName"
+          :rules="rules"
+          label="검색어"
+        ></v-text-field>
+        <v-btn type="submit">검색</v-btn>
+      </v-form>
+    </v-sheet>
+  </div>
 </template>
-<script>
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue';
-
-// Import Swiper styles
-import 'swiper/css';
-
-export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-    const onSlideChange = () => {
-      console.log('slide change');
-    };
-    return {
-      onSwiper,
-      onSlideChange,
-    };
-  },
-};
-</script>
+<script></script>
