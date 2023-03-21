@@ -1,16 +1,22 @@
 <template>
-  <div>
+  <v-container>
     <header>
       <h1>사이트제목</h1>
     </header>
     <v-sheet class="mx-auto">
       <v-form class="d-flex" @submit.prevent>
-        <v-text-field
-          v-model="searchName"
-          :rules="rules"
+        <v-autocomplete
           variant="outlined"
           placeholder="검색어"
-        ></v-text-field>
+          :items="[
+            'California',
+            'Colorado',
+            'Florida',
+            'Georgia',
+            'Texas',
+            'Wyoming',
+          ]"
+        ></v-autocomplete>
         <v-btn type="submit" variant="flat" color="error">검색</v-btn>
       </v-form>
     </v-sheet>
@@ -34,6 +40,6 @@
         </v-list-item>
       </v-list>
     </v-row>
-  </div>
+  </v-container>
 </template>
 <script></script>
