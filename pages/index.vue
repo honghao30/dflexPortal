@@ -23,9 +23,15 @@
     </v-row>
     <v-row>
       <v-list>
-        <v-list-item>분류1</v-list-item>
-        <v-list-item>분류2</v-list-item>
-        <v-list-item>분류3</v-list-item>
+        <v-list-item>
+          <NuxtLink to="#"> 분류1 </NuxtLink>
+        </v-list-item>
+        <v-list-item>
+          <NuxtLink to="#"> 분류2 </NuxtLink>
+        </v-list-item>
+        <v-list-item>
+          <NuxtLink to="#"> 분류3 </NuxtLink>
+        </v-list-item>
       </v-list>
     </v-row>
   </div>
