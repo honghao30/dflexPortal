@@ -21,14 +21,14 @@
       </v-form>
     </v-sheet>
     <v-row>
-      <v-list>
+      <v-list class="d-flex">
         <v-list-item>키워드1</v-list-item>
         <v-list-item>키워드2</v-list-item>
         <v-list-item>키워드3</v-list-item>
       </v-list>
     </v-row>
     <v-row>
-      <v-list>
+      <v-list class="d-flex">
         <v-list-item>
           <NuxtLink to="#"> 분류1 </NuxtLink>
         </v-list-item>
