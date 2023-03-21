@@ -30,7 +30,7 @@
     <v-row>
       <v-list class="d-flex">
         <v-list-item>
-          <NuxtLink to="#"> 분류1 </NuxtLink>
+          <NuxtLink to="BookList"> 분류1 </NuxtLink>
         </v-list-item>
         <v-list-item>
           <NuxtLink to="#"> 분류2 </NuxtLink>
