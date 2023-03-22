@@ -1,3 +1,3 @@
 <template>
-  <div>00</div>
+  <div><slot /></div>
 </template>
