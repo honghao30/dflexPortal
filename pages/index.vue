@@ -1,8 +1,5 @@
 <template>
   <v-container>
-    <header>
-      <h1><NuxtLink to="/"> 사이트제목</NuxtLink></h1>
-    </header>
     <v-sheet class="mx-auto">
       <v-form class="d-flex" @submit.prevent>
         <v-autocomplete
