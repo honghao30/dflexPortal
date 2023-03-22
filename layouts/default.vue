@@ -1,8 +1,3 @@
 <template>
-  <div>
-    <slot >
-    
-
-    <slot />
-  </div>
+  <div>00</div>
 </template>

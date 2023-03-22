@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <header>
-      <h1>사이트제목</h1>
+      <h1><NuxtLink to="/"> 사이트제목</NuxtLink></h1>
     </header>
     <v-sheet class="mx-auto">
       <v-form class="d-flex" @submit.prevent>
